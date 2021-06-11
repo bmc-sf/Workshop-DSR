@@ -1,0 +1,36 @@
+DSR Workshop
+
+
+*** 2020-April-21
+
+1.  Create Object Spreadsheet Deal_Support_Request__c
+      Include test data
+2.  Verify GitHub code will clone, deploy and run
+      a.  Queues
+      b.  Process Builder
+
+
+Create Data Model using Object Creator
+  - Import data
+Add fields to Deal_Support_Request__c
+  Account - Lookup(account)
+  Account Executive - Formula(text)
+  Entered on behalf of - Lookup(user)
+  Opportunity - Lookup(opportunity)
+  Opportunity Owner - Formula(text)
+  Opportunity Stage - Formula(text)
+  Preferred Expert - Lookup(user)
+
+Change Deal Support ID >> AutoNumber
+
+Adjust Page Layout
+  Add new Fields
+  Add new Sections and move fields to new sections
+  Add Related List
+    Adjust related list fields
+xxx Create Tab
+Add Tab to Sales Lightning App
+Create DSR App
+Create Reports
+Create Dashboard
+Update App with Reports & Dashboards
